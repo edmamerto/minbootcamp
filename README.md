@@ -121,6 +121,25 @@ We will be point ports from the docker container up to our Laptop so we could ac
 It will look like this
 
 ![ports](minbootcamp.png)
+
+
+Exit out of vagrant and configure your `Vagrantfile` ports to listen to `8080 (HOST) 80 (GUEST)`
 ```
-work in progress
+$ exit
+```
+Configuration will take effect when vagrant is reloaded so do
+```
+$ vagrant reload
+```
+Enter vagrant again
+```
+$ vagrant ssh
+```
+Create a new instance of your docker app with port fowarded to `80`
+```
+$ docker run -d -p 80:5000 minbootcamp
+```
+Check your browser in your laptop browse this address 
+```
+127.0.0.1:8080
 ```
