@@ -120,6 +120,10 @@ $ curl 127.0.0.1:5000
 We will be point ports from the docker container up to our Laptop so we could access our app from our Laptop's browser
 It will look like this
 
+```
+(yourLaptop) 8080 <== (Vagrant) 80 <== (Docker) 5000
+```
+
 ![ports](minbootcamp.png)
 
 
