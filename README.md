@@ -50,6 +50,8 @@ Clone the app
 ```
 $ git clone https://github.com/edmamerto/handyflasky
 ```
+> check out my repo [github.com/edmamerto/handyflasky](https://github.com/edmamerto/handyflasky)
+
 Check if clone is successful
 ```
 $ ls
@@ -58,6 +60,8 @@ Clone my chef cookbook which has docker installation recipe. This just makes it 
 ```
 $ git clone https://github.com/edmamerto/souschef
 ```
+> check out my repo [github.com/edmamerto/souschef](https://github.com/edmamerto/souschef)
+
 Expected output  when you run `ls` again
 ```
 handyflasky
