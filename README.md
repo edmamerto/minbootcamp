@@ -91,3 +91,32 @@ Check if you're now able to run without `sudo`. You should not get a `permission
 ```
 $ docker ps
 ```
+### Build image
+Navigate to your app dir
+```
+$ cd ../handyflasky
+```
+Print `Dockerfile`. For now just know that this contains config and commands that will bring your app to your desired state when you rin it with docker
+```
+$ cat Dockerfile
+```
+Build the image
+```
+$ docker build -t minbootcamp:latest .
+```
+Run a container out of the image
+```
+$ docker run -d -p 5000:5000 minbootcamp
+```
+Check if container runs
+```
+$ docker ps
+```
+Now curl your app and see if returns the Expected Output
+```
+$ curl 127.0.0.1:5000
+```
+### Forwarding Ports 
+```
+work in progress
+```
