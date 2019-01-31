@@ -117,7 +117,7 @@ Now curl your app and see if returns the Expected Output
 $ curl 127.0.0.1:5000
 ```
 ### Forwarding Ports 
-We will be point ports from the docker container up to our Laptop so we could access our app from our Laptop's browser.
+We will be pointing ports from the docker container up to our Laptop so we could access our app from our Laptop's browser.
 
 It will look like this
 
