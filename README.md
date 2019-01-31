@@ -18,7 +18,7 @@ $ mkdir minbootcamp
 
 Download my image with chef pre-installed
 ```
-$ vagrant add edmamerto/bento-ubuntu-16.04-chef 
+$ vagrant box add edmamerto/bento-ubuntu-16.04-chef 
 ```
 Create a vagrant file with my image configured in it
 ```
@@ -37,3 +37,27 @@ Login to your box
 $ vagrant ssh
 ```
 ### Download 
+>Git should be pre-installed in your box
+
+Make sure you're logged-in to your box. Below should return `vagrant`
+```bash
+$ echo $USER
+```
+
+Clone the app 
+```
+$ git clone https://github.com/edmamerto/handyflasky
+```
+Check if clone is successful
+```
+$ ls
+```
+Clone my chef cookbook wich has docker installation recipe
+```
+$ git clone https://github.com/edmamerto/souschef
+```
+Expected output  when you run `ls` again
+```
+handyflasky
+souschef
+```
