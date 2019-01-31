@@ -52,7 +52,7 @@ Check if clone is successful
 ```
 $ ls
 ```
-Clone my chef cookbook wich has docker installation recipe
+Clone my chef cookbook which has docker installation recipe. This just makes it easier to install docker, and to get you introduced to chef.
 ```
 $ git clone https://github.com/edmamerto/souschef
 ```
