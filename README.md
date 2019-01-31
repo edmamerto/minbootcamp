@@ -2,7 +2,6 @@
 > Runbook to get Minh up-to-speed with some DevOps tools 
 
 ## Overview
-In this project we will...
 1. Spin up a box (VM)
 2. Clone some repositories we need inside the box
 3. Install tools we need 
@@ -79,7 +78,7 @@ Check if install was successful
 ```
 $ docker
 ```
-By default the docker daemon always runs as the root user. This just means you have to prepend `sudo` all the time. This can be annoying so let's add your user which is `vagrant` to the docker group. 
+By default the docker daemon always runs as the root user. This just means you have to prepend `sudo` all the time when you run docker commands. This can be annoying so let's add your user which is `vagrant` to the docker group. 
 ```
 $ sudo usermod -aG docker $USER
 ```
@@ -117,7 +116,7 @@ Now curl your app and see if returns the Expected Output
 ```
 $ curl 127.0.0.1:5000
 ```
-### Forwarding Ports 
+###Forwarding Ports 
 ```
 work in progress
 ```
