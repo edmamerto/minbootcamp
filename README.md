@@ -144,7 +144,7 @@ Create a new instance of your docker app with port fowarded to `80`
 ```
 $ docker run -d -p 80:5000 minbootcamp
 ```
-Check your browser in your laptop browse this address 
+In your laptop browser go to
 ```
 127.0.0.1:8080
 ```
