@@ -119,7 +119,7 @@ $ curl 127.0.0.1:5000
 ### Forwarding Ports 
 We will be point ports from the docker container up to our Laptop so we could access our app from our Laptop's browser
 It will look like this
-![ports](minbootcamp.png =100x)
+![ports](minbootcamp.png)
 ```
 work in progress
 ```
