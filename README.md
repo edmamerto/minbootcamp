@@ -1,5 +1,5 @@
 # minbootcamp
-> Runbook to get Minh up to speed with some DevOps tools 
+> Runbook to get Minh up-to-speed with some DevOps tools 
 
 ### What we will be doing...
 1. Spin up a box (VM)
