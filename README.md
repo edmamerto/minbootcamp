@@ -2,7 +2,9 @@
 > Runbook to get Minh up-to-speed with some DevOps tools 
 
 Who is Minh?
-Minh is the guy your mother warned you about.
+```
+Minh is the guy your mother warned you about. Known by many as the Love Doctor.
+```
 
 ## Overview
 1. Spin up a box (VM)
