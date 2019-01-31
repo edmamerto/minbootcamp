@@ -1,7 +1,7 @@
 # minbootcamp
 > Runbook to get Minh up to speed with some DevOps tools 
 
-###What we will be doing...
+### What we will be doing...
 1. Spin up a box (VM)
 2. Clone some repositories we need inside the box
 3. Install tools we need 
