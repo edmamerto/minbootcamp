@@ -2,6 +2,7 @@
 > Runbook to get Minh up-to-speed with some DevOps tools 
 
 ## Overview
+In this project we will be...
 1. Spin up a box (VM)
 2. Clone some repositories we need inside the box
 3. Install tools we need 
