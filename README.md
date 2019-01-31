@@ -22,6 +22,9 @@ $ vagrant box add edmamerto/bento-ubuntu-16.04-chef
 ```
  >check it out: [edmamerto/bento-ubuntu-16.04-chef](https://app.vagrantup.com/edmamerto/boxes/bento-ubuntu-16.04-chef)
  
+ Our setup should look like this
+ ![](https://github.com/edmamerto/simple-chef/blob/master/simple-chef.png)
+ 
 Create a vagrant file with my image configured in it
 ```
 $ vagrant init edmamerto/bento-ubuntu-16.04-chef 
