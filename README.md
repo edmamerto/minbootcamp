@@ -3,7 +3,7 @@
 
 Who is Minh?
 ```
-Minh is the guy your mother warned you about. Known by many as the Love Doctor.
+Known by many as the Love Doctor.
 ```
 
 ## Overview
