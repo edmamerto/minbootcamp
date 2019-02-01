@@ -1,4 +1,4 @@
-# minbootcamp
+# minhbootcamp
 > Runbook to get Minh up-to-speed with some DevOps tools 
 
 Who is Minh?
@@ -18,7 +18,7 @@ Known by many as the Love Doctor.
 ### Setup Vagrant
 Create a project dir in your desired location
 ```
-$ mkdir minbootcamp
+$ mkdir minhbootcamp
 ```
 
 Download my image with chef pre-installed
@@ -117,11 +117,11 @@ $ cat Dockerfile
 ```
 Build the image
 ```
-$ docker build -t minbootcamp:latest .
+$ docker build -t minhbootcamp:latest .
 ```
 Run a container out of the image
 ```
-$ docker run -d -p 5000:5000 minbootcamp
+$ docker run -d -p 5000:5000 minhbootcamp
 ```
 Check if container runs
 ```
@@ -157,7 +157,7 @@ $ vagrant ssh
 ```
 Create a new instance of your docker app with port fowarded to `80`
 ```
-$ docker run -d -p 80:5000 minbootcamp
+$ docker run -d -p 80:5000 minhbootcamp
 ```
 In your laptop browser go to
 ```
